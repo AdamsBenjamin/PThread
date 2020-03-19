@@ -1,8 +1,4 @@
-ostream& operator<<(ostream& os, const Date& dt)
-{
-    os << dt.mo << '/' << dt.da << '/' << dt.yr;
-    return os;
-}# PThreader
+PThreader
 
 ## What is this?
 A class-based abstraction of the pthread library.<br>
